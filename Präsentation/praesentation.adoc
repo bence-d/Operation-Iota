@@ -1,0 +1,75 @@
+:imagesdir: ./images
+:customcss: my-stylesheet.css
+
+[transition=zoom]
+== Unser Spiel-Projekt
+image::presi-background.jpg[background, size=cover] 
+
+[transition=zoom]
+== Teilnehmer
+image::presi-background.jpg[background, size=cover]     
+image::teilnehmer.PNG["teilnehmer", 2000, 307]   
+
+[transition=zoom]
+== Teamaufteilung
+image::presi-background.jpg[background, size=cover]   
+[cols="^1,^2,^3"]
+|===
+|Graphic Design |Game Development |Storyline & Creativity
+
+|Bence
+|Abdal, Ademola
+|Fabian
+|===
+
+[transition=zoom]
+[.columns]
+== Ideen und Motivation
+image::presi-background.jpg[background, size=cover]    
+[.column]
+--
+- Motivation
+* Feeling, etwas zu erschaffen, das später Leute genießen können
+* Freizeit - alle von uns beschäftigen sich mit Spielen in ihrer Freizeit
+* Begeisterung von den uns gespielten Spielen
+--
+
+[.column]
+--
+- Ideen
+* 2D Sideview Shooter mit einer Storyline
+* Eine, Website wo das Spiel heruntergeladen werden kann
+* Die Website soll das Spiel vorstellen, erklären
+--
+
+[transition=zoom]
+[.columns]
+== Verwirklichung/Technologien
+image::presi-background.jpg[background, size=cover]    
+[.column]
+--
+* 2D Sideview
+* Storyline
+* Genre: Shooter
+* Design: 8Bit - Pixel
+--
+
+[.column]
+--
+* Game Engine: Unity
+* Plattformen: Windows
+* Website: Apache/NGINX
+* Musik: Bosca Ceoil
+* Sound effekte: SFXR
+* Bild-Editor: GIMP
+* File-Management: GitHub, GitKraken
+--
+
+[transition=zoom]
+== Unser Spiel im Tiefe
+image::presi-background.jpg[background, size=cover]  
+[.column]
+* Das Spiel soll sich auf eine fiktive Story basieren
+* Während dem Fortschritt im Spiel können Gegenstände freigeschaltet werden
+* Das Spiel wird Herausforderungen beinhalten
+* Man wird im Spiel verschiedene Charaktere freischalten können
