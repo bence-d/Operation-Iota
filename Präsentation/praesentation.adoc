@@ -62,7 +62,7 @@ image::presi-background.jpg[background, size=cover]
 * Musik: Bosca Ceoil
 * Sound effekte: SFXR
 * Bild-Editor: GIMP
-* File-Management: GitHub, GitKraken
+* File-Management: GitHub
 --
 
 [transition=zoom]
