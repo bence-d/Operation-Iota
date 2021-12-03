@@ -1,0 +1,11 @@
+:imagesdir: ./ReadMe-Assets/
+image::ReadMe-Banner.PNG["Project Name Banner", 1920, 237]
+
+=== Präsentation
+
+Eine Kurzpräsentation zum vorstellung unserer Ideen ist unter `\Präsentation\praesentation.html` zu finden. +
+Die `praesentation.adoc` File benutzt *RevealJS*.
+
+=== Dokumente
+
+Projektantrag: ...
