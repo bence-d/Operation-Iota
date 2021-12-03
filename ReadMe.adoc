@@ -1,4 +1,6 @@
 :imagesdir: ./ReadMe-Assets/
+
+[.text-center]
 image::ReadMe-Banner.PNG["Project Name Banner", 587, 82]
 
 === Präsentation
