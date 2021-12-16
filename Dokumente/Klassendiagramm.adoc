@@ -1,0 +1,74 @@
+= Klassendiagramm
+
+[plantuml]
+....
+@startuml
+
+abstract class Entität {
+    +Name: String
+    +Leben : Double = 100.0
+    +Geschwindigkeit : Double
+    +Schaden : Double
+    +Kritischer schaden : Double
+
+    +laufen(string Richtung):bool
+    +schlagen():bool
+    +springen():bool
+    +ducken():bool
+    +schaden-nehmen(int Menge):bool
+    +sterben():void
+}
+
+class Inventar {
+    +Gegenstände : List<Gegenstand>
+    +Limit : int
+    
+    +werfen(Gegenstand gegenstand, int Menge):bool
+    +nachladen(Gegenstand Ammunizion, Gegenstand Waffe)
+}
+
+class Operator {
+    +Schild : Double
+    +Stamina : Double
+    +Inventar : Inventar
+    
+    +schießen()
+    +nachladen()
+    +aufnehmen()
+    +benutzen()
+    +werfen()
+    +Fähigkeit()
+    +heilen()
+}
+
+class Infizierte {
+    +Typ : String
+
+    +beißen()
+}
+
+class Gegenstand {
+    +Name
+    +Quantität
+    +Typ
+    +Beschädigung
+
+    +benutzen()
+    +beschädigen()
+}
+
+class Heilmittel {
+    +Typ : Enum 
+    +Wert : Double
+
+    +heilen()
+}
+
+Entität <|-- Operator
+Entität <|-- Infizierte
+Inventar .. Operator
+Gegenstand <|-- Heilmittel
+Heilmittel .. Operator
+
+@enduml
+....
