@@ -1,0 +1,41 @@
+= Anwendungsdiagramm Spieler-zu-Feinden
+
+[plantuml]
+....
+left to right direction
+package Spieler{
+    actor Spieler as sp
+}
+
+package Peripherie {
+  usecase "WASD" as UC1
+  usecase "Linke Maustaste" as UC2
+  usecase "Rechrte Maustaste" as UC3
+  usecase "Leertaste" as UC4
+  usecase "Taste 'I'" as UC5
+  usecase "Shift" as UC6
+  usecase "Ctrl" as UC7
+  usecase "Tatse 'E" as UC8
+}
+
+sp --> UC1
+sp --> UC2
+sp --> UC3
+sp --> UC4
+sp --> UC5
+sp --> UC6
+sp --> UC7
+sp --> UC8
+
+package Monster {
+    actor Monster as m
+    usecase "plündern" as UC9
+    usecase "schlagen" as UC10
+}
+
+UC8 --> UC9
+UC2 --> UC10
+UC9 --> m
+UC10 --> m
+m --> UC11
+....
