@@ -1,0 +1,39 @@
+= Spieler zu Inventar Beschreibung
+
+[plantuml]
+....
+left to right direction
+actor Spieler as sp
+
+package Tastatur {
+  usecase "I" as UC1
+  usecase "ESC" as UC2
+  usecase "Linke Maustaste halten" as UC3
+  usecase "Q/DEL" as UC4
+  usecase "1,2,3,4" as UC5
+  usecase "E" as UC6
+}
+
+package Inventar {
+  usecase "Inventar öffnen" as UC9
+  usecase "Inventar schließen" as UC10
+  usecase "Item bewegen/sortieren" as UC11
+  usecase "Item droppen" as UC12
+  usecase "Item an Waffenslot anhängen" as UC13
+  usecase "Item aufnehmen" as UC14
+}
+
+sp --> UC1
+sp --> UC2
+sp --> UC3
+sp --> UC4
+sp --> UC5
+sp --> UC6
+
+UC1 --> UC9
+UC2 --> UC10
+UC3 --> UC11
+UC4 --> UC12
+UC5 --> UC13
+UC6 --> UC14
+....
