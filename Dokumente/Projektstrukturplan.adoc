@@ -1,0 +1,42 @@
+[plantuml, target=diagram-classes, format=png]   
+....
+@startwbs
+* Operation Iota
+** 1.1 Basis erstellen
+*** 1.1.1 Spieler-Sprite
+*** 1.1.2 Oberfläche zum Laufen
+*** 1.1.3 Bewegung des Spielers
+**** 1.1.3.1 horizontale Bewegung
+**** 1.1.3.2 springen als Spieler
+*** 1.1.4 schießen als Spieler
+** 1.2 Storyline
+*** 1.2.1 Basis-Story vervollständigen
+*** 1.2.2 Einleitung
+*** 1.2.3 Hauptteil
+*** 1.2.4 Schluß
+*** 1.2.5 Nebenmissionen, Hintergrundkaraktere
+*** 1.2.6 Details, Hintergrundinformationen
+** 1.3 Karaktere
+*** 1.3.1 Sprites
+**** 1.3.1.1 Sprite von Abdalrahman
+**** 1.3.1.2 Sprite von Ademola
+**** 1.3.1.3 Sprite von Bence
+**** 1.3.1.4 Sprite von Fabian
+**** 1.3.1.5 Sprites von Feinden
+*** 1.3.2 Fähigkeiten
+**** 1.3.2.1 Fähigkeiten von Abdalrahman
+**** 1.3.2.2 Fähigkeiten von Ademola
+**** 1.3.2.3 Fähigkeiten von Bence
+**** 1.3.2.4 Fähigkeiten von Fabian
+**** 1.3.2.5 Fähigkeiten von Feinden
+** 1.4 Maps
+*** 1.4.1 Map 1 (kommt auf Story an)
+*** 1.4.2 Map 2 (kommt auf Story an)
+*** 1.4.3 Map 3 (kommt auf Story an)
+** 1.5 Interaktionen
+*** 1.5.1 Türe/Tore öffnen
+*** 1.5.2 Fenster aufmachen
+*** 1.5.3 Gegenstände aufheben
+*** 1.5.4 Gegenstände benutzen
+@endwbs
+....

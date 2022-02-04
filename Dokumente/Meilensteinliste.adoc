@@ -1,0 +1,22 @@
+= Meilensteinliste
+
+[plantuml, target=diagram-classes, format=png]   
+....
+@startuml
+[Spiel-Basis] lasts 21 days
+[Storyline] lasts 35 days
+[Karakter-Sprites] lasts 28 days
+[Map-Sprites] lasts 63 days
+[Karakter-Fähigkeiten] lasts 49 days
+[Interaktionen] lasts 35 days
+
+Project starts 2022-02-04
+[Spiel-Basis] starts 2022-02-04
+[Storyline] starts 2022-02-04
+[Karakter-Sprites] starts 2022-02-04
+[Map-Sprites] starts at [Karakter-Sprites]'s end
+[Karakter-Fähigkeiten] starts 2022-02-25
+[Interaktionen] starts at [Karakter-Fähigkeiten]'s end
+
+@enduml
+....
