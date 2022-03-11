@@ -1,0 +1,70 @@
+= Projektfortschrittsbericht
+
+== Projektname, Datum
+
+Projektname: Operation Iota +
+Datum: 10.03.2022
+
+== Projektstatus
+
+Das Projekt in Ampelform mit einem '*Gelb*' bewertet werden. +
+Die Arbeitspakete sind vorbereitet und unser Team hat angefangen zum arbeiten, die Arbeitspakete sind aber noch nicht fertig.
+
+== Abgeschlossene Arbeiten
+
+* Spielbasis
+** Basis-Spieler
+** Bewegung, Springen
+** Menü
+*** Einstellungen
+* Karakter-Sprites
+** Basis-Spieler-Sprite
+* Map Sprites
+** Basis-Boden-Sprite
+* Karakter-Fähigkeiten
+** Doppelsprung
+
+== Arbeitspakete, die aktuell in Arbeit sind
+
+Liste der aktuell erarbeiteten Arbeitspakete:
+
+* Storyline
+* Karakter-Sprites
+* MapSprites
+* Karakter-Fähigkeiten
+
+== Ausblick, nächste Schritte
+
+Da es Probleme mit der Bestätigung der Schülerstatus bei Unity und GitHub gibt, müssen wir andere Pläne machen. Unsere jetztige Vorwurf ist, dass wir das Projekt auf GitHub statt Unity-Teams synchronisieren.
+
+Sollte es sich am Freitag nicht ausgehen, werden wir uns im Meeting am Sonntag extra Zeit dafür nehmen.
+
+== Vergleich mit Zeitplan, evtl. aktualsiertes GANTT-Diagramm mit Fortschrittsbalken, etc.
+
+
+[plantuml, target=meilensteine-status, format=png]
+....
+@startuml
+[Spiel-Basis] lasts 21 days
+[Storyline] lasts 35 days
+[Karakter-Sprites] lasts 28 days
+[Map-Sprites] lasts 63 days
+[Karakter-Fähigkeiten] lasts 49 days
+[Interaktionen] lasts 35 days
+
+Project starts 2022-02-04
+[Spiel-Basis] starts 2022-02-04
+[Storyline] starts 2022-02-04
+[Karakter-Sprites] starts 2022-02-04
+[Map-Sprites] starts at [Karakter-Sprites]'s end
+[Karakter-Fähigkeiten] starts 2022-02-25
+[Interaktionen] starts at [Karakter-Fähigkeiten]'s end
+
+[Spiel-Basis] is colored in Green
+[Storyline] is colored in Yellow
+[Karakter-Sprites] is colored in Yellow
+[Map-Sprites] is colored in Yellow
+[Karakter-Fähigkeiten] is colored in Green
+[Interaktionen] is colored in Green
+@enduml
+....
