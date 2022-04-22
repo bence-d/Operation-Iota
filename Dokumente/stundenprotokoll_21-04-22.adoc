@@ -1,0 +1,14 @@
+= Stundenprotokoll am 21.04.2022
+
+* Neue Props
+** Box
+** Door
+** Ammo Box
+* Inventory System
+** Inventory
+** Items
+** Player Class
+* Basic UI
+** Console
+** Tutorial
+* Neue Spieler Sprite

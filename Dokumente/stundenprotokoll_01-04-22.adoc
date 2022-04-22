@@ -1,0 +1,6 @@
+= Stundenprotokoll am 21.04.2022
+
+* Inventarsystem
+* UI Skizze und Ideensammlung
+* Items im Welt (wie soll es angezeigt/gerendert werden)
+* Objektklassen vervollständigung
