@@ -1,0 +1,81 @@
+= Projektfortschrittsbericht
+
+== Projektname, Datum
+
+Projektname: Operation Iota +
+Datum: 21.04.2022
+
+== Projektstatus
+
+Das Projekt in Ampelform mit einem '*Gelb*' bewertet werden. +
+Die Arbeitspakete sind am erarbeiten, es gibt aber Fragen über die richtige implementierung
+
+== Abgeschlossene Arbeiten
+
+* Neue Props
+** Box
+** Door
+** Ammo Box
+* Inventory System
+** Inventory
+** Items
+** Player Class
+* Basic UI
+** Console
+** Tutorial (Anfang von Storyline...)
+* Neue Spieler Sprite
+
+== Arbeitspakete, die aktuell in Arbeit sind
+
+Liste der aktuell erarbeiteten Arbeitspakete:
+
+* Storyline
+* Karakter-Sprites
+* MapSprites
+* Karakter-Fähigkeiten
+
+== Ausblick, nächste Schritte
+
+Die große Aufwände/Arbeitspakete mehr zu unterteilen um es zu schaffen.
+
+Z.b. Animationen zuerst weglassen oder UI erstmals nur mit Text machen.
+* statische images zeichnen (schießen, etwas öffnen, hinhocken, waffe halten)
+* UI (health bar, icons, inventar, abilities, messages, konsole, )
+
+Aufteilung Inventarsystem:
+
+1. Konsole erstellen
+2. Klassen erstellen [ Spieler -> Item -> Inventar ]
+3. Items im Welt implementieren
+3. Inventory per Text erstellen beim auf Aufheben einer Item zuerst auf die Konsole die Status ausgeben -> zuerst item aufgehoben -> dann ganzes inventar als Array oder Liste ausgeben -> dann wieder droppen zu können
+4. UI einführen -> zuerst nur statisch (beim öffnen werden die items angezeigt) -> dann kann man die items droppen oder löschen -> dann kann man sie auch auf andere Olätze ziehen und das dann wieder speichern
+
+== Vergleich mit Zeitplan, evtl. aktualsiertes GANTT-Diagramm mit Fortschrittsbalken, etc.
+
+
+[plantuml, target=meilensteine-status, format=png]
+....
+@startuml
+[Spiel-Basis] lasts 21 days
+[Storyline] lasts 35 days
+[Karakter-Sprites] lasts 28 days
+[Map-Sprites] lasts 63 days
+[Karakter-Fähigkeiten] lasts 49 days
+[Interaktionen] lasts 35 days
+
+Project starts 2022-02-04
+[Spiel-Basis] starts 2022-02-04
+[Storyline] starts 2022-02-04
+[Karakter-Sprites] starts 2022-02-04
+[Map-Sprites] starts at [Karakter-Sprites]'s end
+[Karakter-Fähigkeiten] starts 2022-02-25
+[Interaktionen] starts at [Karakter-Fähigkeiten]'s end
+
+[Spiel-Basis] is colored in Green
+[Storyline] is colored in Yellow
+[Karakter-Sprites] is colored in Yellow
+[Map-Sprites] is colored in Yellow
+[Karakter-Fähigkeiten] is colored in Green
+[Interaktionen] is colored in Green
+@enduml
+....
